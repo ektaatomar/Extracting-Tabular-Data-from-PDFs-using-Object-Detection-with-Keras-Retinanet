@@ -2,7 +2,7 @@
 Inspired by work of https://github.com/fizyr/keras-retinanet.git 
 
 ## GPU Requirements
-To fulfill the GPU needs, we utilized Google Colab platform as our personal resources were limited in that capacity. Not to mention that Colab GPU allocation have it's own strategies, depending on your past usage your allocation may differ. In our case, we managed to get pretty good accuracy with these resources.
+To fulfill the GPU needs, we utilized Google Colab platform as our personal resources were limited in that capacity. Not to mention that Colab GPU allocation have it's own strategies, depending on your past usage your allocation may differ. In our case, we managed to get pretty good model with these resources.
 
 ## Enabling GPU on Colab
 https://colab.research.google.com/notebooks/gpu.ipynb
