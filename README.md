@@ -12,7 +12,7 @@ We are aware that finding a quality public dataset for table detection can be a 
 https://www.kaggle.com/monuirctc/table-detection  
 http://www.tamirhassan.com/html/dataset.html - EU documents link
 
-## Required files
+## Required Files
 
 Images- JPEG is the prefered format, we have also included the code to convert PNG into JPEG files.
 Annotations- XML files. We encorage to develop understandiing of the annotation file formats. Respective annotations are included in these datasets.
@@ -24,6 +24,12 @@ You can read about the background here:
 https://github.com/tzutalin/labelImg
 
 Train and Test text files- These essentially contain the name of image files(without the extention) to be used for training and testing.
+
+## Preparing CSV Files for Training
+After getting all above files ready and in place, we need to create CSV files with the annotation information with the help of build_logos.py script. For obvious reasons, it would generate Train and Test CSV files for next steps of training and validation.
+
+## Training Model 
+Trained the model on our dataset while using the pretrained COCO weights which made the training faster and more precise. As advised, evaluated its performance, which turned out to be very impressive.
 
 
 
